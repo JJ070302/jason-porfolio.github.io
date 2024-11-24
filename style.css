@@ -131,6 +131,10 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 
+button:hover {
+    background-color: #ddcaca;
+}
+
 footer {
     text-align: center;
     background: #333;
