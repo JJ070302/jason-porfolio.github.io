@@ -102,21 +102,36 @@ section {
 }
 
 .project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.project-card h3 {
+  }
+  
+  .dino-img-left,
+  .dino-img-right {
+    width: 550px;
+    height: 350px;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .project-card h3 {
     margin-bottom: 10px;
-}
-
-.project-card a {
+  }
+  
+  .project-card a {
     color: #007bff;
     text-decoration: none;
-}
-
+  }
+  
 form {
     max-width: 400px;
     margin: 0 auto;
